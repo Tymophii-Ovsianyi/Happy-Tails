@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Tails</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Delius&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/modern-normalize/modern-normalize.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="header container">
+    <!-- це семантичний тег хедера. Тут буде навігація по сайту, кнопка відкриття форми для звязку -->
+     <nav class="header-nav">
+      
+      <a class="header-nav-button" href="#hero">About us</a>
+      
+      <button class="header-nav-button" type="submit">Feedback</button>
+     </nav>
+  </header>
+
+  <main class="main container">
+    <section class="hero">
+      <img class="hero-img" src="/img/fon.jpg" alt="cat paws">
+      <div>
+        <h1 class="hero-title" id="hero">Happy Tails</h1>
+        <p class="hero-text">
+          The shelter cares for animals in need — we take in sick, injured, or abandoned animals, provide them with the necessary treatment, care, and love. Once they recover, we find them safe and loving homes with responsible owners. Every rescued animal is a life saved and a chance for happiness — made possible together with you.
+        </p>
+      </div>
+      <img class="hero-img" src="/img/fon2.jpg" alt="boop nose">
+    </section>
+
+  <section class="animals" id="animals">
+    <!-- це семантичний тег секції. Тут буде інформація у вигляді таблиці про тварин, які є у притулку. -->
+    <div class="animals-buttons">
+      <button class="animals-button" type="button">All animals</button>
+      <button class="animals-button"  type="button">Cats</button>
+      <button class="animals-button"  type="button">Dogs</button>
+      <button class="animals-button"  type="button">Others</button>
+    </div>
+
+    <ul class="animals-list">  
+      <li class="animals-list-item">
+        <img class="animals-list-item-img" src="/img/cat.jpg" alt="gray cat"/>
+        <h3 class="animals-list-item-title">Snowball</h3>
+        <p class="animals-list-item-text">1 year</p>
+        <p class="animals-list-item-text">British shorthair</p>
+        <button class="animals-list-item-button">Profile</button>
+      </li>
+      <li class="animals-list-item">
+        <img class="animals-list-item-img" src="/img/cat1.jpg" alt="white cat"/>
+        <h3 class="animals-list-item-title">Cloudlet</h3>
+        <p class="animals-list-item-text">2 year</p>
+        <p class="animals-list-item-text">British shorthair</p>
+        <button class="animals-list-item-button">Profile</button>
+      </li>
+      <li class="animals-list-item">
+        <img class="animals-list-item-img" src="/img/cat2.jpg" alt="kitty">
+        <h3 class="animals-list-item-title">Pipi</h3>
+        <p class="animals-list-item-text">4 mounths</p>
+        <p class="animals-list-item-text">British shorthair</p>
+        <button class="animals-list-item-button">Profile</button>
+      </li>
+      <li class="animals-list-item">
+        <img class="animals-list-item-img" src="/img/cat3.jpg" alt="sad cat">
+        <h3 class="animals-list-item-title">Murchik</h3>
+        <p class="animals-list-item-text">1 year</p>
+        <p class="animals-list-item-text">British shorthair</p>
+        <button class="animals-list-item-button">Profile</button>
+      </li>
+      <li class="animals-list-item">
+        <img class="animals-list-item-img" src="/img/cat4.jpg" alt="ginger sad cat">
+        <h3 class="animals-list-item-title">Rudyk</h3>
+        <p class="animals-list-item-text">1,5 year</p>
+        <p class="animals-list-item-text">British shorthair</p>
+        <button class="animals-list-item-button">Profile</button>
+      </li>
+      <li class="animals-list-item">
+        <img class="animals-list-item-img" src="/img/cat5.jpg" alt="the cat is playing">
+        <h3 class="animals-list-item-title">Orange</h3>
+        <p class="animals-list-item-text">1 year</p>
+        <p class="animals-list-item-text">Tabby cat</p>
+        <button class="animals-list-item-button">Profile</button>
+      </li>
+      <li class="animals-list-item">
+        <img class="animals-list-item-img" src="/img/dog.jpg" alt="red dog">
+        <h3 class="animals-list-item-title">Max</h3>
+        <p class="animals-list-item-text">3 years</p>
+        <p class="animals-list-item-text">Pastor Garafiano</p>
+        <button class="animals-list-item-button">Profile</button>
+      </li>
+      <li class="animals-list-item">
+        <img class="animals-list-item-img" src="/img/dog1.jpg" alt="golden dog">
+        <h3 class="animals-list-item-title">Charlie</h3>
+        <p class="animals-list-item-text">3 years</p>
+        <p class="animals-list-item-text">Golden Retriever</p>
+        <button class="animals-list-item-button">Profile</button>
+      </li>
+      <li class="animals-list-item">
+        <img class="animals-list-item-img" src="/img/dog2.jpg" alt="small dog">
+        <h3 class="animals-list-item-title">Bella</h3>
+        <p class="animals-list-item-text">2 years</p>
+        <p class="animals-list-item-text">Chihuahua</p>
+        <button class="animals-list-item-button">Profile</button>
+      </li> 
+      <li class="animals-list-item">
+        <img class="animals-list-item-img" src="/img/dog3.jpg" alt="small dog">
+        <h3 class="animals-list-item-title">Cooper</h3>
+        <p class="animals-list-item-text">6 mounths</p>
+        <p class="animals-list-item-text">Chihuahua</p>
+        <button class="animals-list-item-button">Profile</button>
+      </li> 
+      <li class="animals-list-item">
+        <img class="animals-list-item-img" src="/img/dog4.jpg" alt="small dark dog">
+        <h3 class="animals-list-item-title">Luna</h3>
+        <p class="animals-list-item-text">1,5 years</p>
+        <p class="animals-list-item-text">Prague Ratter</p>
+        <button class="animals-list-item-button">Profile</button>
+      </li>
+      <li class="animals-list-item">
+        <img class="animals-list-item-img" src="/img/dog5.jpg" alt="small Pinscher">
+        <h3 class="animals-list-item-title">Milo</h3>
+        <p class="animals-list-item-text">1 year</p>
+        <p class="animals-list-item-text"> Miniature Pinscher</p>
+        <button class="animals-list-item-button">Profile</button>
+      </li> 
+      <li class="animals-list-item">
+        <img class="animals-list-item-img" src="/img/dog6.jpg" alt="sed dog">
+        <h3 class="animals-list-item-title">Bobik</h3>
+        <p class="animals-list-item-text">5 year</p>
+        <p class="animals-list-item-text">Dogue de Bordeaux</p>
+        <button class="animals-list-item-button">Profile</button>
+      </li> 
+      <li class="animals-list-item">
+        <img class="animals-list-item-img" src="/img/ham.jpg" alt="red hamster">
+        <h3 class="animals-list-item-title">Fifi</h3>
+        <p class="animals-list-item-text">2 mounths</p>
+        <p class="animals-list-item-text">Golden Hamster</p>
+        <button class="animals-list-item-button">Profile</button>
+      </li> 
+      <li class="animals-list-item">
+        <img class="animals-list-item-img" src="/img/ham2.jpg" alt="gold hamster">
+        <h3 class="animals-list-item-title">Bib</h3>
+        <p class="animals-list-item-text">2 mounths</p>
+        <p class="animals-list-item-text">Syrian hamster</p>
+        <button class="animals-list-item-button">Profile</button>
+      </li> 
+    </ul>
+  </section>
+  </main>
+
+  <footer class="footer">
+<!-- це семантичний тег футера (підвалу). Тут буде інформація про притулок та контакти -->
+    <address class="footer-address container">
+      <h3 class="footer-address-title">Contacts</h3>
+      <a class="footer-address-link" href="tel:+380978117748">097-811-77-48</a>
+      <a class="footer-address-link" href="mailto:Happy_Tails@gmail.com">Happy_Tails@gmail.com</a>
+      <p class="footer-address-text">Rivne city Vesnyana street, private estate 56</p> 
+      <p class="footer-address-text">mon-sun 09:00-19:00</p>
+    </address>
+  </footer>
+
+  <div>
+    <!-- це семантичний тег діва, тут буде модальне вікно для контакту. Це вікно в хедері -->
+  </div>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
