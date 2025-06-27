@@ -88,6 +88,13 @@ body {
   display:flex ;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 45px;
+}
+
+.header-div{
+   display:flex ;
+  align-items: center;
+  text-align: center;
 }
 
 .header-nav-button{
@@ -97,7 +104,6 @@ body {
   padding: 15px 50px;
   font-size: 24px;
   color: #7b2830;
-  margin-bottom: 45px;
   outline: none;
   border: none;
 }
@@ -214,4 +220,6 @@ body {
 .footer-addres{
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
